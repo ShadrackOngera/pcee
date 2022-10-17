@@ -95,17 +95,20 @@
                             </div>
                         </div>
 
+
                         <div class="row mb-3">
-                            <div class="input-group-wrapper">
+
+                            <div class="">
                                 <div class="input-group">
-                                    <span class="input-group-text bg-light text-muted border-0" id="basic-addon1">
+                                    <span class="input-group-text bg-light text-muted" id="basic-addon1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
-                                          <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                            <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                                         </svg>
                                     </span>
 
-                                    <input id="password-confirm" type="password" class="border-0 form-control" name="password_confirmation" required autocomplete="new-password" placeholder="{{ __('Confirm Password') }}">
+                                    <input id="password-confirm" type="password" class="border-start-0 form-control" name="password_confirmation" required autocomplete="new-password" placeholder="{{ __('Confirm Password') }}">
                                 </div>
+
                             </div>
                         </div>
 
