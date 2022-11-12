@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="py-5"></div>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
@@ -21,7 +22,7 @@
                                         </svg>
                                     </span>
 
-                                    <input id="first-name" type="text" class="border-start-0 form-control @error('first-name') is-invalid @enderror" name="first-name" value="{{ old('first-name') }}" required autocomplete="first-name" autofocus placeholder="{{ __('First name') }}">
+                                    <input id="first-name" type="text" class="border-start-0 form-control @error('first-name') is-invalid @enderror" name="first_name" value="{{ old('first-name') }}" required autocomplete="first-name" autofocus placeholder="{{ __('First name') }}">
                                 </div>
 
                                 @error('first-name')
@@ -42,7 +43,7 @@
                                         </svg>
                                     </span>
 
-                                    <input id="last-name" type="text" class="border-start-0 form-control @error('last-name') is-invalid @enderror" name="last-name" value="{{ old('last-name') }}" required autocomplete="first-name" autofocus placeholder="{{ __('Last Name') }}">
+                                    <input id="last-name" type="text" class="border-start-0 form-control @error('last-name') is-invalid @enderror" name="last_name" value="{{ old('last-name') }}" required autocomplete="first-name" autofocus placeholder="{{ __('Last Name') }}">
                                 </div>
 
                                 @error('last-name')
@@ -112,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-0">
+                        <div class="row mb-3">
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-success-lite text-white rounded-5">
                                     {{ __('Register') }}
@@ -122,12 +123,12 @@
 
                         <div>
                             <div class="d-grid">
-                                <p class="text-center small">
+                                <p class="text-center small mb-0">
                                     Already have an account?
-                                    <a href="#" class="text-success nav-link">
-                                        Sign In
-                                    </a>
                                 </p>
+                                <a class="nav-link text-center text-success" href="{{ route('login') }}">
+                                    {{ __('Login') }}
+                                </a>
                             </div>
                         </div>
                     </form>
