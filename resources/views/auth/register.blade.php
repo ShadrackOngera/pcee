@@ -6,12 +6,16 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="">
-                <div class="text-center">{{ __('Register') }}</div>
+                <div class="text-center">
+                    <img src="{{ asset('images/pics/smart-logo.png') }}" alt="PCEE LOGO" class="img-fluid">
+                </div>
+                <div class="text-center">
+                    {{ __('Register') }}
+                </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
-
                         <div class="row mb-3">
                             <div class="">
                                 <div class="input-group">
@@ -137,4 +141,5 @@
         </div>
     </div>
 </div>
+    <div class="py-5"></div>
 @endsection

@@ -6,6 +6,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
+                <div class="text-center">
+                    <img src="{{ asset('images/pics/smart-logo.png') }}" alt="PCEE LOGO" class="img-fluid">
+                </div>
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
