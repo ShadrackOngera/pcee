@@ -15,4 +15,14 @@ class PagesController extends Controller
         //
         return view('pages.dashboard');
     }
+
+    public function aboutPage(){
+        //
+        return view('pages.about');
+    }
+
+    public function contactPage(){
+        //
+        return view('pages.contact');
+    }
 }

@@ -1,7 +1,12 @@
 @extends('layouts.app')
 @section('content')
     <div class="banner-home">
-
+        <div class="container align-self-center text-center">
+            <h1 class="fw-bolder text-uppercase text-success-lite">portable Car Engineering Environment</h1>
+            <p class="fs-5 text-capitalize">
+                The next step in the automotive industry
+            </p>
+        </div>
     </div>
 
     <div class="py-5"></div>
