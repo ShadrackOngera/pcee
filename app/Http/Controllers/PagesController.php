@@ -20,9 +20,4 @@ class PagesController extends Controller
         //
         return view('pages.about');
     }
-
-    public function contactPage(){
-        //
-        return view('pages.contact');
-    }
 }

@@ -1,5 +1,8 @@
 <div class="bg-footer">
     <div class="container">
+        <div>
+            <img src="{{ asset('images/pics/svg-image.png') }}" alt="">
+        </div>
         <div class="row py-3 align-items-center">
             <div class="col-sm-4">
                 <h4>SERVICES</h4>

@@ -25,4 +25,10 @@ Route::get('/contact-us', [App\Http\Controllers\PagesController::class, 'contact
 Route::get('/dashboard', [App\Http\Controllers\PagesController::class, 'dashboardPage'])->name('dashboard');
 
 
+//contact Pages
+Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'show'])->name('contact');
+Route::post('/contacts', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
+
+
+//mailing Pages
 Route::post('/mailing-list', [App\Http\Controllers\MailingController::class, 'store'])->name('mailing.store');
