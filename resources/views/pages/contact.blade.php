@@ -1,14 +1,23 @@
 @extends('layouts.app')
 @section('content')
-    <div>
+    <div class="banner-contact">
         <div class="container">
-            <h1 class="text-center">CONTACT US</h1>
+            <h1 class="text-center text-white">CONTACT US</h1>
         </div>
     </div>
+    <div class="py-5"></div>
     <div>
         <div class="container">
-            <div class="row mb-3">
-                <div class="col-sm-6"></div>
+            <div class="row mb-3 align-items-center">
+                <div class="col-sm-6">
+                    <h2 class="fw-bold">GET IN TOUCH</h2>
+                    <p class="fs-5">
+                        We’d love to hear from you
+                    </p>
+                    <p>
+
+                    </p>
+                </div>
                 <div class="col-sm-6">
                     <form action="{{ route('contact.store') }}" method="POST">
                         @csrf
@@ -37,4 +46,5 @@
             </div>
         </div>
     </div>
+    <div class="py-5"></div>
 @endsection
