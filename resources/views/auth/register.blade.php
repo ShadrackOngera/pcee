@@ -7,11 +7,11 @@
         <div class="col-md-6">
             <div class="">
                 <div class="text-center">
-                    <img src="{{ asset('images/pics/smart-logo.png') }}" alt="PCEE LOGO" class="img-fluid">
+                    <img src="{{ asset('images/pics/smart-logo.png') }}" alt="PCEE LOGO" class="img-fluid mb-3">
                 </div>
-                <div class="text-center">
-                    {{ __('Register') }}
-                </div>
+                <h2 class="text-center mb-3">
+                    {{ __('REGISTER') }}
+                </h2>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -119,20 +119,20 @@
 
                         <div class="row mb-3">
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-success-lite text-white rounded-5">
-                                    {{ __('Register') }}
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('REGISTER') }}
                                 </button>
                             </div>
                         </div>
 
                         <div>
                             <div class="d-grid">
-                                <p class="text-center small mb-0">
+                                <p class="text-center small">
                                     Already have an account?
+                                    <a class="nav-link text-center text-primary" href="{{ route('login') }}">
+                                        {{ __('Login') }}
+                                    </a>
                                 </p>
-                                <a class="nav-link text-center text-success" href="{{ route('login') }}">
-                                    {{ __('Login') }}
-                                </a>
                             </div>
                         </div>
                     </form>
