@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function servicePage(){
+    public function featuresPage(){
         //
-        return view('pages.services');
+        return view('pages.features');
     }
 
     public function dashboardPage(){

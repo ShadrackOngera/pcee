@@ -1,25 +1,12 @@
 .banner-home {
-    background-image: url(../images/banners/fleet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.banner-home-two {
-    background-image: url(../images/banners/lifted-car-dark.jpg);
+    background-image: url(../images/banners/home-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    min-height: 38vh;
+    min-height: 75vh;
     align-items: center;
     padding-bottom: 30px;
     padding-top: 30px;
-    color: white;
-
 }
 
 .banner-contact {
@@ -32,5 +19,16 @@
     padding-bottom: 30px;
     padding-top: 30px;
     color: white;
+}
 
+.banner-features {
+    background-image: url(../images/banners/gas-station.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 38vh;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
 }

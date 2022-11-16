@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/services', [App\Http\Controllers\PagesController::class, 'servicePage'])->name('services');
+Route::get('/features', [App\Http\Controllers\PagesController::class, 'featuresPage'])->name('features');
 Route::get('/about-us', [App\Http\Controllers\PagesController::class, 'aboutPage'])->name('about');
 Route::get('/contact-us', [App\Http\Controllers\PagesController::class, 'contactPage'])->name('contact');
 Route::get('/dashboard', [App\Http\Controllers\PagesController::class, 'dashboardPage'])->name('dashboard');

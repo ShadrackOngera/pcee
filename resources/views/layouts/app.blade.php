@@ -18,16 +18,15 @@
 </head>
 <body>
     <div id="app">
-        <div class="position-relative">
-            <section class="position-absolute w-100">
-                @include('partials.nav')
-            </section>
-        </div>
+        <section class="">
+            @include('partials.nav')
+        </section>
 
         <main class="">
-            <div class="py-4"></div>
+            <div class=""></div>
             @yield('content')
         </main>
+
 
         <section>
             @include('partials.footer')

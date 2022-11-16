@@ -1,5 +1,5 @@
-<div class="bg-white-light">
-    <nav class="navbar navbar-expand-md navbar-dark w-100 shadow-sm">
+<div class="">
+    <nav class="navbar navbar-expand-md navbar-light w-100 shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
@@ -16,6 +16,9 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home') }}">{{ __('Home') }}</a>
+                    </li>
                     <!-- Authentication Links -->
                     @guest
                         @if (Route::has('login'))
@@ -30,7 +33,7 @@
                             </li>
                         @endif
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('services') }}">{{ __('Services') }}</a>
+                                <a class="nav-link" href="{{ route('features') }}">{{ __('Features') }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('about') }}">{{ __('About') }}</a>
