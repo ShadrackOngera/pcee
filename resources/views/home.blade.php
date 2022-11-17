@@ -8,14 +8,16 @@
                     <h1>YOUR ONLINE GARAGE PLATFORM</h1>
                     <h5>orem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas magna lacus, elementum ac eleifend vitae, volutpat vel ipsum. Mauris tincidunt turpis vitae vehicula vestibulum.</h5>
 
-                    <div class="row">
-                        <div class="col-sm-6 d-grid mb-3">
-                            <a href="{{ route('login') }}" class="btn btn-primary">SIGN IN</a>
+                    @guest()
+                        <div class="row">
+                            <div class="col-sm-6 d-grid mb-3">
+                                <a href="{{ route('login') }}" class="btn btn-primary">SIGN IN</a>
+                            </div>
+                            <div class="col-sm-6 d-grid mb-3">
+                                <a href="{{ route('register') }}" class="btn btn-outline-primary">SIGN UP</a>
+                            </div>
                         </div>
-                        <div class="col-sm-6 d-grid mb-3">
-                            <a href="{{ route('register') }}" class="btn btn-outline-primary">SIGN UP</a>
-                        </div>
-                    </div>
+                    @endguest
                 </div>
                 <div class="col-sm-6">
                     <img src="{{ asset('images/pics/showcase.png') }}" alt="Home Garage" class="img-fluid">
@@ -106,15 +108,60 @@
     <div class="bg-gray-200" style="min-height: 72vh">
         <div class="container py-5">
             <h2 class="text-center fw-bold mb-3">PRICING</h2>
-
-            <div class="row mb-3 text-center">
+            <div>
+                <p>
+                    We provide mobile mechanics using the latest technology in the  automotive industry to provide 85% of  on-site preventive and reactive services for personal car owners and for fleets at standardized prices. For  the remaining 15% we use the nearest garage based on how soon you want your car fixed 24/7/365. In case of delays we provide upto 3000 worth of Uber or a rented car worth 3000.At PCEE we believe that your time is important and it shouldn't be wasted waiting in garages.
+                </p>
+            </div>
+            <div class="row mb-3">
                 <div class="col-sm-4 mb-3">
-                    ITEM ONE
+                    <div class="card shadow py-5">
+                        <h3 class="text-center">REGULAR</h3>
+                        <ul>
+                            <li>
+                                24/7/365 on-site mechanics
+                            </li>
+                            <li>
+                                Earn points for every job you hire us to provide
+                            </li>
+                            <li>
+                                E-receipts for all jobs done to your vehicle
+                            </li>
+                            <li>
+                                6months/6000miles warranty whichever comes first
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-4 mb-3">
-                    ITEM ONE
+                <div class="col-sm-4 mb-3 h-100">
+                    <div class="card shadow py-5">
+                        <h3 class="text-center">PREMIUM</h3>
+                        <ul>
+                            <li>
+                                24/7/365 on-site mechanics for predictive and reactive maintenance
+                            </li>
+                            <li>
+                                Car tracking
+                            </li>
+                            <li>
+                                24/7/365 diagnostics
+                            </li>
+                            <li>
+                                20km annual free car towing
+                            </li>
+                            <li>
+                                Annual car valuation
+                            </li>
+                            <li>
+                                Full vehicle downtime coverage costs
+                            </li>
+                            <li>
+                                6months /6000miles warranty
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-4 mb-3">
+                <div class="col-sm-4 h-100 mb-3">
                     ITEM ONE
                 </div>
             </div>
