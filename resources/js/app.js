@@ -17,10 +17,12 @@ const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
 import VehicleVitalsComponent from './components/VehicleVitalsComponent.vue';
+import DashboardComponent from './components/DashboardComponent.vue';
 
 
 app.component('example-component', ExampleComponent);
 app.component('vehicle-vitals-component', VehicleVitalsComponent);
+app.component('dashboard-component', DashboardComponent);
 
 /**
  * The following block of code may be used to automatically register your
