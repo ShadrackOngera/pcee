@@ -105,9 +105,10 @@
         </div>
 
         <div class="bg-gray-200" style="min-height: 72vh">
-            <div class="container py-5">
+            <div class="container">
+                <div class="py-5"></div>
                 <h2 class="text-center fw-bold mb-3">PRICING</h2>
-                <div>
+                <div class="text-center mb-5">
                     <p>
                         We provide mobile mechanics using the latest technology in the  automotive industry to provide 85% of  on-site preventive and reactive services for personal car owners and for fleets at standardized prices. For  the remaining 15% we use the nearest garage based on how soon you want your car fixed 24/7/365. In case of delays we provide upto 3000 worth of Uber or a rented car worth 3000.At PCEE we believe that your time is important and it shouldn't be wasted waiting in garages.
                     </p>
@@ -168,9 +169,11 @@
                     </div>
                 </div>
 
+                <div class="py-5"></div>
                 <div class="text-center">
                     <a href="#" class="">Locate shops near me?</a>
                 </div>
+                <div class="py-3"></div>
             </div>
         </div>
 
