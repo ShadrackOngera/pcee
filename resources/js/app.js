@@ -16,7 +16,11 @@ import { createApp } from 'vue';
 const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
+import VehicleVitalsComponent from './components/VehicleVitalsComponent.vue';
+
+
 app.component('example-component', ExampleComponent);
+app.component('vehicle-vitals-component', VehicleVitalsComponent);
 
 /**
  * The following block of code may be used to automatically register your

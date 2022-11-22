@@ -9,6 +9,17 @@
     padding-top: 30px;
 }
 
+.banner-vitals {
+    background-image: url(../images/banners/mapholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 75vh;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 .banner-contact {
     background-image: url(../images/banners/contact-dark.jpg);
     background-repeat: no-repeat;
