@@ -44,23 +44,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h4 class="text-center">SUBSCRIBE TO OUR NEWSLETTER</h4>
-                <form action="{{ route('mailing.store') }}" method="POST">
-                    @csrf
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Name" required>
-                    </div>
 
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="Example@email.com" required>
-                    </div>
-
-                    <div class="d-grid">
-                        <button class="btn btn-primary" type="submit">
-                            Subscribe
-                        </button>
-                    </div>
-                </form>
             </div>
         </div>
         <div class="text-center fs-2">
