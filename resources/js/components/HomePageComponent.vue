@@ -73,7 +73,9 @@
         <div>
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6 align-self-center">
+                        <img src="images/pics/car-navigation.jpg" alt="" class="img-fluid">
+                    </div>
                     <div class="col-sm-6">
                         <hr class="home-bar ms-5">
                         <h3 class="fw-bold ms-5 mb-3">PRODUCT FEATURES</h3>
@@ -215,5 +217,22 @@ export default {
 </script>
 
 <style scoped>
+.home-bar{
+    width: 100px;
+    height: 7px;
+    background-color: #109CF1;
+    border: none;
+}
 
+.numbers-border{
+    border: 3px solid #18BAF7;
+    border-radius: 50%;
+    color: #189EF7;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
 </style>

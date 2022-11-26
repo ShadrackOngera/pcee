@@ -25,4 +25,9 @@ class PagesController extends Controller
         //
         return view('pages.vitals');
     }
+
+    public function settings(){
+        //
+        return view('pages.settings');
+    }
 }

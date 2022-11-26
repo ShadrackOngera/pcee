@@ -19,12 +19,14 @@ import ExampleComponent from './components/ExampleComponent.vue';
 import VehicleVitalsComponent from './components/VehicleVitalsComponent.vue';
 import DashboardComponent from './components/DashboardComponent.vue';
 import HomePageComponent from './components/HomePageComponent.vue';
+import SettingsComponent from './components/SettingsComponent.vue';
 
 
 app.component('example-component', ExampleComponent);
 app.component('vehicle-vitals-component', VehicleVitalsComponent);
 app.component('dashboard-component', DashboardComponent);
 app.component('home-page-component', HomePageComponent);
+app.component('settings-component', SettingsComponent);
 
 /**
  * The following block of code may be used to automatically register your
