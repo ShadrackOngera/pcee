@@ -30,4 +30,8 @@ class PagesController extends Controller
         //
         return view('pages.settings');
     }
+    public function mileage(){
+        //
+        return view('pages.mileage');
+    }
 }

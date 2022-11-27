@@ -20,6 +20,7 @@ import VehicleVitalsComponent from './components/VehicleVitalsComponent.vue';
 import DashboardComponent from './components/DashboardComponent.vue';
 import HomePageComponent from './components/HomePageComponent.vue';
 import SettingsComponent from './components/SettingsComponent.vue';
+import MileageComponent from './components/MileageComponent.vue';
 
 
 app.component('example-component', ExampleComponent);
@@ -27,6 +28,7 @@ app.component('vehicle-vitals-component', VehicleVitalsComponent);
 app.component('dashboard-component', DashboardComponent);
 app.component('home-page-component', HomePageComponent);
 app.component('settings-component', SettingsComponent);
+app.component('mileage-component', MileageComponent);
 
 /**
  * The following block of code may be used to automatically register your
