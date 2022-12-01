@@ -26,6 +26,8 @@ Route::get('/dashboard', [App\Http\Controllers\PagesController::class, 'dashboar
 Route::get('/vehicle-vitals', [App\Http\Controllers\PagesController::class, 'vehicleVitals'])->name('vitals');
 Route::get('/settings', [App\Http\Controllers\PagesController::class, 'settings'])->name('settings');
 Route::get('/mileage', [App\Http\Controllers\PagesController::class, 'mileage'])->name('mileage');
+Route::get('/config', [App\Http\Controllers\PagesController::class, 'config'])->name('config');
+Route::get('/overview', [App\Http\Controllers\PagesController::class, 'overview'])->name('overview');
 
 
 //contact Pages

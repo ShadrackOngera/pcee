@@ -34,4 +34,13 @@ class PagesController extends Controller
         //
         return view('pages.mileage');
     }
+    public function config(){
+        //
+        return view('pages.config');
+    }
+
+    public function overview(){
+        //
+        return view('pages.overview');
+    }
 }
