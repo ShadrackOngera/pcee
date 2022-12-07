@@ -64,20 +64,103 @@
             <div class="py-5"></div>
         </div>
 
-        <div class="bg-gray-200" style="min-height: 70vh">
-            <div class="container py-5 align-items-center">
-                <h3 class="text-center text-muted mb-5">PRODUCT SHOWCASE</h3>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img src="images/pics/usb-stick.jpg" alt="PCEE ADAPTER" class="img-fluid rounded-3 mb-2">
+        <div class="bg-gray-200" style="min-height: 72vh">
+            <div class="container">
+                <div class="py-5"></div>
+                <h2 class="text-center fw-bold mb-3">PRODUCT OVERVIEW</h2>
+                <div class="text-center mb-5">
+                    <p>
+                        We use the nearest garage based on how soon you want your car fixed 24/7/365. In case of delays we provide upto 3000 worth of Uber or a rented car worth 3000.At PCEE we believe that your time is important and it shouldn't be wasted waiting in garages.
+                    </p>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-4 mb-3">
+                        <div class="card shadow py-5 overview-card float-end">
+                            <div>
+                                <h3 class="text-center fw-bold">REGULAR</h3>
+                                <hr class="mx-3">
+                            </div>
+                            <ul class="img-list">
+                                <li>
+                                    <span class="fw-bold">24/7-365 days</span> on-site mechanics
+                                </li>
+                                <li>
+                                    Earn <span class="fw-bold">points</span> for every job you hire us to provide
+                                </li>
+                                <li>
+                                    <sapn class="fw-bold">E-receipts</sapn> for all jobs done to your vehicle
+                                </li>
+                                <li>
+                                    <span class="fw-bold">6 months / 6000 miles</span> warranty <span class="fst-italic">whichever comes first</span>
+                                </li>
+                            </ul>
+                            <a href="/contact" class="get-started">Get started</a>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <img src="images/pics/usb-stick.jpg" alt="PCEE ADAPTER" class="img-fluid rounded-3 mb-2">
+                    <div class="col-sm-4 mb-3">
+                        <div class="card shadow py-5 overview-center-card">
+                            <div>
+                                <h3 class="text-center fw-bold">PREMIUM</h3>
+                                <hr class="mx-3">
+                            </div>
+                            <ul class="img-list">
+                                <li>
+                                    <span class="fw-bold">24/7-365 days</span> on-site mechanics for predictive and reactive maintenance
+                                </li>
+                                <li>
+                                    Car <span class="fw-bold">tracking</span>
+                                </li>
+                                <li>
+                                    <span class="fw-bold">24/7-365 days</span> diagnostics
+                                </li>
+                                <li>
+                                    20km annual <span class="fw-bold">free car towing</span>
+                                </li>
+                                <li>
+                                    Annual <span class="fw-bold">car valuation</span>
+                                </li>
+                                <li>
+                                    Full vehicle <span class="fw-bold">downtime coverage</span> costs
+                                </li>
+                                <li>
+                                    <span class="fw-bold">6 months / 6000 miles</span> warranty <span class="fst-italic">whichever comes first</span>
+                                </li>
+                            </ul>
+                            <a href="/contact" class="get-started">
+                                Get started
+<!--                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">-->
+<!--                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>-->
+<!--                                </svg>-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <img src="images/pics/usb-stick.jpg" alt="PCEE ADAPTER" class="img-fluid rounded-3 mb-2">
+                    <div class="col-sm-4 mb-3">
+                        <div class="card shadow py-5 overview-card">
+                            <div>
+                                <h3 class="text-center fw-bold">CORPORATE</h3>
+                                <hr class="mx-3">
+                            </div>
+                            <p class="text-center">
+                                Depending on Company Needs
+                            </p>
+                            <a href="/contact" class="get-started">
+                                Get started
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="py-5"></div>
+                <div class="text-center">
+                    <a href="/contact" class="">Locate shops near me?</a>
+                </div>
+                <div class="py-3"></div>
             </div>
         </div>
 
@@ -96,19 +179,19 @@
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <h3 class="numbers-border fw-bold">2</h3>
-                                <h5 class="fw-bold">Another Feature</h5>
+                                <h5 class="fw-bold">Tracking</h5>
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <h3 class="numbers-border fw-bold">3</h3>
-                                <h5 class="fw-bold">Another Feature</h5>
+                                <h5 class="fw-bold">Mobile Mechanics</h5>
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <h3 class="numbers-border fw-bold">4</h3>
-                                <h5 class="fw-bold">Another Feature</h5>
+                                <h5 class="fw-bold">Predictive Maintenance</h5>
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <h3 class="numbers-border fw-bold">5</h3>
-                                <h5 class="fw-bold">Another Feature</h5>
+                                <h5 class="fw-bold">Reactive Maintenance</h5>
                             </div>
                         </div>
                     </div>
@@ -116,92 +199,6 @@
             </div>
         </div>
 
-        <div class="bg-gray-200" style="min-height: 72vh">
-            <div class="container">
-                <div class="py-5"></div>
-                <h2 class="text-center fw-bold mb-3">PRICING</h2>
-                <div class="text-center mb-5">
-                    <p>
-                        For  the remaining 15% we use the nearest garage based on how soon you want your car fixed 24/7/365. In case of delays we provide upto 3000 worth of Uber or a rented car worth 3000.At PCEE we believe that your time is important and it shouldn't be wasted waiting in garages.
-                    </p>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-sm-4 mb-3">
-                        <div class="card shadow py-5 h-100">
-                            <h3 class="text-center">REGULAR</h3>
-                            <ul>
-                                <li>
-                                    24/7/365 on-site mechanics
-                                </li>
-                                <li>
-                                    Earn points for every job you hire us to provide
-                                </li>
-                                <li>
-                                    E-receipts for all jobs done to your vehicle
-                                </li>
-                                <li>
-                                    6months/6000miles warranty whichever comes first
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mb-3">
-                        <div class="card shadow py-5 h-100">
-                            <h3 class="text-center">PREMIUM</h3>
-                            <ul>
-                                <li>
-                                    24/7/365 on-site mechanics for predictive and reactive maintenance
-                                </li>
-                                <li>
-                                    Car tracking
-                                </li>
-                                <li>
-                                    24/7/365 diagnostics
-                                </li>
-                                <li>
-                                    20km annual free car towing
-                                </li>
-                                <li>
-                                    Annual car valuation
-                                </li>
-                                <li>
-                                    Full vehicle downtime coverage costs
-                                </li>
-                                <li>
-                                    6months /6000miles warranty
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mb-3">
-                        <div class="card shadow py-5 h-100">
-                            <h3 class="text-center">AFTER SALE SERVICES</h3>
-                            <ul>
-                                <li>
-                                    <span class="fw-bold">48 hours</span> to file complaints incase of property damage or loss
-                                </li>
-                                <li>
-                                    Either <span class="fw-bold">6000 miles / 6 months</span> warranty (whichever comes first).
-                                </li>
-                                <li>
-                                    Earn points which can be redeemed for other <span class="fw-bold">automotive services</span>
-                                </li>
-                                <li>
-                                    Get an <span class="fw-bold">E-receipt</span> after every job and the history of all jobs done to your vehicle
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="py-5"></div>
-                <div class="text-center">
-                    <a href="#" class="">Locate shops near me?</a>
-                </div>
-                <div class="py-3"></div>
-            </div>
-        </div>
 
         <div>
             <div class="container py-5">
@@ -231,6 +228,23 @@
                 </div>
             </div>
         </div>
+<!--        <div>-->
+<!--            <h3 class="text-center">AFTER SALE SERVICES</h3>-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <span class="fw-bold">48 hours</span> to file complaints incase of property damage or loss-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    Either <span class="fw-bold">6000 miles / 6 months</span> warranty (whichever comes first).-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    Earn points which can be redeemed for other <span class="fw-bold">automotive services</span>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    Get an <span class="fw-bold">E-receipt</span> after every job and the history of all jobs done to your vehicle-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
     </div>
 </template>
 
@@ -241,6 +255,14 @@ export default {
 </script>
 
 <style scoped>
+.banner-home {
+    background-color: #eeeeee;
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 
 .home-bar::before{
     content: '';
@@ -250,6 +272,49 @@ export default {
     background: #18BAF7;
     margin-bottom: 10px;
 }
+.banner-home{
+    position: relative;
+}
+.overview-card{
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vh;
+    height: 50vh;
+    margin-top: 20px;
+}
+.overview-center-card{
+    height: 55vh;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.get-started{
+    background-color: #0dcaf0;
+    color: white;
+    margin: 8px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img-list {
+    list-style-image: url(/images/icons/list-item-icon.png?682454b932896064d6d8d2b500ec7bb3);
+}
+
+@media (min-width: 0px) and (max-width: 760px) {
+    .overview-card{
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
 
 /*.banner-home::after{*/
 /*    content: '';*/
@@ -257,15 +322,18 @@ export default {
 /*    height: 50px;*/
 /*    background: #18BAF7;*/
 /*    transform: skewY(-4deg);*/
+/*    position: absolute;*/
 /*}*/
 
-.work{
-    content: '';
-    width: 100%;
-    height: 70px;
-    background: #f8fafc;
-    transform: skewY(-3.9deg);
-}
+/*.work{*/
+/*    content: '';*/
+/*    width: 100%;*/
+/*    height: 70px;*/
+/*    background: #f8fafc;*/
+/*    transform: skewY(-3.9deg);*/
+/*}*/
+
+
 
 .numbers-border{
     border: 3px solid #18BAF7;

@@ -23,6 +23,7 @@ import SettingsComponent from './components/SettingsComponent.vue';
 import MileageComponent from './components/MileageComponent.vue';
 import ConfigComponent from './components/ConfigComponent.vue';
 import OverviewComponent from './components/OverviewComponent.vue';
+import AboutComponent from './components/AboutComponent.vue';
 
 
 app.component('example-component', ExampleComponent);
@@ -33,6 +34,7 @@ app.component('settings-component', SettingsComponent);
 app.component('mileage-component', MileageComponent);
 app.component('config-component', ConfigComponent);
 app.component('overview-component', OverviewComponent);
+app.component('about-component', AboutComponent);
 
 /**
  * The following block of code may be used to automatically register your
