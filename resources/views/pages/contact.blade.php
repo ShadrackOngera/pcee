@@ -14,9 +14,12 @@
                     <p class="fs-5">
                         We’d love to hear from you
                     </p>
-                    <p>
-
-                    </p>
+                    <hr>
+                    <div class="">
+                        <h5>You can call us directly on – 0743973524 or 0783240838</h5>
+                        <h5>Or email us on – info@pcee.co.ke</h5>
+                        <h5>NAIROBI, Karuna road, Western heights</h5>
+                    </div>
                 </div>
                 <div class="col-sm-6">
                     <form action="{{ route('contact.store') }}" method="POST">
@@ -45,19 +48,6 @@
                 </div>
             </div>
             <div class="py-5"></div>
-            <div class="row text-center align-items-center">
-                <div class="col-sm-7">
-                    <h5>You can call us directly on – 0755-556955 or 0708-556955</h5>
-                    <h5>Or email us on – pcee@admin.com</h5>
-                </div>
-                <div class="col-sm-5">
-                    <h3>NAIROBI GARAGE KILIMANI</h3>
-                    <p>8th Floor, Pinetree Plaza, Kaburu Drive</p>
-                    <p>Off Ngong Rd. Nairobi.</p>
-                    <p>T: +254 790 556 955</p>
-                    <p>E: kilimani@nairobigarage.com</p>
-                </div>
-            </div>
         </div>
     </div>
     <div class="py-5"></div>
