@@ -94,7 +94,12 @@
                                     <span class="fw-bold">6 months / 6000 miles</span> warranty <span class="fst-italic">whichever comes first</span>
                                 </li>
                             </ul>
-                            <a href="/contact" class="get-started">Get started</a>
+                            <a href="/contact" class="get-started">
+                                Get started
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4 mb-3">
@@ -128,9 +133,6 @@
                             </ul>
                             <a href="/contact" class="get-started">
                                 Get started
-<!--                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">-->
-<!--                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"/>-->
-<!--                                </svg>-->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                                 </svg>
@@ -164,7 +166,32 @@
             </div>
         </div>
 
-        <div>
+        <div class="" style="min-height: 55vh">
+            <div class="py-5"></div>
+            <div class="container">
+                <div class="row justify-content-center mb-3">
+                    <div class="col-sm-5">
+                        <h2 class="display-6 mb-5 home-bar">AFTER SALES SERVICE</h2>
+                    </div>
+                </div>
+                <div class="card shadow text-center py-5 mb-3">
+                    <p>
+                        <span class="fw-bold">48 hours</span> to file complaints incase of property damage or loss
+                    </p>
+                    <p>
+                        Either <span class="fw-bold">6000 miles / 6 months</span> warranty (whichever comes first).
+                    </p>
+                    <p>
+                        Earn points which can be redeemed for other <span class="fw-bold">automotive services</span>
+                    </p>
+                    <p>
+                        Get an <span class="fw-bold">E-receipt</span> after every job and the history of all jobs done to your vehicle
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-200">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-sm-6 align-self-center mb-3">
@@ -200,7 +227,7 @@
         </div>
 
 
-        <div>
+        <div class="">
             <div class="container py-5">
                 <h2 class="fw-bold text-center">DOWNLOAD APP</h2>
                 <div class="row align-items-center ">
@@ -212,10 +239,10 @@
                             </h5>
                         </div>
                         <div class="d-flex">
-                            <a href="#" class="nav-link me-4">
+                            <a href="" class="me-4 border-0" @click="appTimeAlert()">
                                 <img src="images/pics/get-on-applestore.png" alt="..." class="img-fluid">
                             </a>
-                            <a href="#" class="nav-link">
+                            <a href="" id="appSoon" class="nav-link" @click="appTimeAlert()">
                                 <img src="images/pics/get-on-playstore.png" alt="..." class="img-fluid">
                             </a>
                         </div>
@@ -228,29 +255,18 @@
                 </div>
             </div>
         </div>
-<!--        <div>-->
-<!--            <h3 class="text-center">AFTER SALE SERVICES</h3>-->
-<!--            <ul>-->
-<!--                <li>-->
-<!--                    <span class="fw-bold">48 hours</span> to file complaints incase of property damage or loss-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    Either <span class="fw-bold">6000 miles / 6 months</span> warranty (whichever comes first).-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    Earn points which can be redeemed for other <span class="fw-bold">automotive services</span>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    Get an <span class="fw-bold">E-receipt</span> after every job and the history of all jobs done to your vehicle-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
     </div>
 </template>
 
 <script>
 export default {
-    name: "HomePageComponent"
+    name: "HomePageComponent",
+
+    methods: {
+        appTimeAlert () {
+            window.alert('App Coming Soon');
+        },
+    }
 }
 </script>
 

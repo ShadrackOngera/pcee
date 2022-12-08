@@ -10,14 +10,7 @@
                     </h5>
                 </div>
             </div>
-
-            <div class="container py-5">
-                <div class="d-flex about-page-links">
-                    <a href="#culture" class="nav-link me-3">Culture and Values</a>
-                    <a href="#milestones" class="nav-link me-3">Milestones</a>
-                    <a href="#team" class="nav-link me-3">Our Team</a>
-                </div>
-            </div>
+            <div class="py-5"></div>
 
             <div>
                 <div class="container" id="about">
@@ -73,8 +66,8 @@
             <div class="py-5"></div>
             <div id="#team">
                 <div class="container">
-                    <div class="row">
-                        <h2 class="about-title">OUR TEAM</h2>
+                    <h2 class="about-title">OUR TEAM</h2>
+                    <div class="row mb-5">
                         <div class="col-sm-4 text-center">
                             <img src="/images/pics/unknown.png" alt="" class="img-fluid image-person">
                             <h3>CLEMENT LIPESA</h3>
@@ -91,6 +84,26 @@
                             <img src="/images/pics/unknown.png" alt="" class="img-fluid image-person">
                             <h3>JOHN CARLOS</h3>
                             <h5 class="text-muted">HEAD OF SALES</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <img src="/images/pics/unknown.png" alt="" class="img-fluid image-person">
+                            <h3>CLIFFORD MANYARA</h3>
+                            <h5 class="text-muted">LEAD DEV</h5>
+                        </div>
+
+                        <div class="col-sm-4 text-center">
+                            <img src="/images/pics/unknown.png" alt="" class="img-fluid image-person">
+                            <h3>FULL NAME</h3>
+                            <h5 class="text-muted">WORK TITLE</h5>
+                        </div>
+
+                        <div class="col-sm-4 text-center">
+                            <img src="/images/pics/unknown.png" alt="" class="img-fluid image-person">
+                            <h3>FULL NAME</h3>
+                            <h5 class="text-muted">WORK TITLE</h5>
                         </div>
                     </div>
                 </div>
