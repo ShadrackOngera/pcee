@@ -297,18 +297,20 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     width: 30vh;
-    height: 50vh;
+    height: 55vh;
     margin-top: 20px;
+    font-size: larger;
 }
 .overview-center-card{
-    height: 55vh;
+    height: 60vh;
     border-radius: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: larger;
 }
 .get-started{
-    background-color: #0dcaf0;
+    background-color: #6be0e5;
     color: white;
     margin: 8px;
     padding: 5px;
@@ -329,27 +331,6 @@ export default {
         width: 100%;
     }
 }
-
-
-
-/*.banner-home::after{*/
-/*    content: '';*/
-/*    width: 100%;*/
-/*    height: 50px;*/
-/*    background: #18BAF7;*/
-/*    transform: skewY(-4deg);*/
-/*    position: absolute;*/
-/*}*/
-
-/*.work{*/
-/*    content: '';*/
-/*    width: 100%;*/
-/*    height: 70px;*/
-/*    background: #f8fafc;*/
-/*    transform: skewY(-3.9deg);*/
-/*}*/
-
-
 
 .numbers-border{
     border: 3px solid #18BAF7;

@@ -22,8 +22,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <form action="{{ route('contact.store') }}" method="POST">
-                        @csrf
+                    <form action="" method="POST">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Name" name="name" required>
                             <label for="floatingInput">Name</label>
